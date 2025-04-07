@@ -8,28 +8,32 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Restoran
+namespace YeldaaydProject
 {
-    public partial class Form1 : Form
-    {
-        public Form1()
-        {
-            InitializeComponent(); // Bu satır hep en üstte olmalı!
+	public partial class Form1 : Form
+	{
+		public Form1()
+		{
+			InitializeComponent(); //Bu satır hep üste olmalı programın çalışması için //This line must always be at the top for the program to work
+			if (!this.DesignMode)
+			{
+				//Here are the codes you said not to run in design mode
+			}
+		}
 
-            if (!this.DesignMode)
-            {
-                // Tasarım modunda çalışmasın dediğin kodlar buraya
-            }
-        }
+		private void Form1_Load(object sender, EventArgs e)
+		{
 
-        private void btnGetir_Click(object sender, EventArgs e)
-        {
-            Restoran yeniRestoran = new Restoran();
+		}
 
-            yeniRestoran.restoranAdi = txtRestoranAdi.Text;
-            yeniRestoran.sandalyeSayisi = int.Parse(txtSandalyeSayisi.Text);
+		private void btnGetir_Click(object sender, EventArgs e)
+		{
+			Restoran newRestoran = new Restoran();
 
-            label3.Text = yeniRestoran.MesajYazdir();
-        }
-    }
+			newRestoran.restoranName = txtRestoranName.Text;
+			newRestoran.chairNumber = int.Parse(txtChairNumber.Text);
+
+			label3.Text = newRestoran.MessagePrint();
+		}
+	}
 }

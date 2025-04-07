@@ -1,0 +1,10 @@
+C:\Users\PC\Desktop\Çalış\csharp\YeldaaydProject\YeldaaydProject\obj\Debug\YeldaaydProject.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Çalış\csharp\YeldaaydProject\YeldaaydProject\obj\Debug\YeldaaydProject.Form1.resources
+C:\Users\PC\Desktop\Çalış\csharp\YeldaaydProject\YeldaaydProject\obj\Debug\YeldaaydProject.Properties.Resources.resources
+C:\Users\PC\Desktop\Çalış\csharp\YeldaaydProject\YeldaaydProject\obj\Debug\YeldaaydProject.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\Çalış\csharp\YeldaaydProject\YeldaaydProject\obj\Debug\YeldaaydProject.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Çalış\csharp\YeldaaydProject\YeldaaydProject\bin\Debug\YeldaaydProject.exe.config
+C:\Users\PC\Desktop\Çalış\csharp\YeldaaydProject\YeldaaydProject\bin\Debug\YeldaaydProject.exe
+C:\Users\PC\Desktop\Çalış\csharp\YeldaaydProject\YeldaaydProject\bin\Debug\YeldaaydProject.pdb
+C:\Users\PC\Desktop\Çalış\csharp\YeldaaydProject\YeldaaydProject\obj\Debug\YeldaaydProject.exe
+C:\Users\PC\Desktop\Çalış\csharp\YeldaaydProject\YeldaaydProject\obj\Debug\YeldaaydProject.pdb

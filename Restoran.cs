@@ -1,18 +1,21 @@
-﻿namespace Restoran
-{
-    public class Restoran
-    {
-        public string restoranAdi;
-        public int sandalyeSayisi;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-        public Restoran()
-        {
-            sandalyeSayisi = 16; // Varsayılan sandalye sayısı
-        }
-
-        public string MesajYazdir()
-        {
-            return "Bu restoranın adı: " + restoranAdi + " ve sandalye sayısı: " + sandalyeSayisi;
-        }
-    }
+namespace YeldaaydProject
+{	public class Restoran
+	{
+		public string restoranName;
+		public int chairNumber;
+		public Restoran() 
+		{
+			chairNumber = 16;
+		}
+		public string MessagePrint()
+		{
+			return $"it is Restoran Name: {restoranName} and chair number: {chairNumber} ";
+		}
+	}
 }
